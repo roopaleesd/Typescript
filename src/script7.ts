@@ -51,30 +51,30 @@
 // console.log(boi.loan())
 
 //program 2
-interface student{
-    displayName():string
-    displayAge():number
+// interface student{
+//     displayName():string
+//     displayAge():number
 
-}
-interface Teacher{
-    displaysalary():number
-}
-class Stuf implements student,Teacher{
-displayName(): string {
-    return 'rupali'
-}
-displayAge(): number {
-    return 31
-}
-displaysalary(): number {
-    return 333333
-}
-}
-let SS1=new Stuf()
-console.log(SS1)
-console.log(SS1.displayName())
-console.log(SS1.displayAge())
-console.log(SS1.displaysalary())
+// }
+// interface Teacher{
+//     displaysalary():number
+// }
+// class info implements student,Teacher{
+// displayName(): string {
+//     return 'rupali'
+// }
+// displayAge(): number {
+//     return 31
+// }
+// displaysalary(): number {
+//     return 333333
+// }
+// }
+// let SS1=new info()
+// console.log(SS1)
+// console.log(SS1.displayName())
+// console.log(SS1.displayAge())
+// console.log(SS1.displaysalary())
 
 //program 3
 // interface Address{
